@@ -1,0 +1,7 @@
+*~
+.idea
+**/*__pycache__*
+logs
+*.json
+*_args.txt
+args
