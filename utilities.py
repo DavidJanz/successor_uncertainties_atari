@@ -68,7 +68,7 @@ class TrainingManager:
         self.checkpoint_base_path = os.path.join(self.log_path, 'checkpoints')
         os.makedirs(self.checkpoint_base_path, exist_ok=True)
         self.logger = self.setup_logging(self.log_path)
-        self.tensorboard = tensorboardX.SummaryWriter(log_dir=self.log_path)
+        self.tensorboard = tensorboardX.SummaryWriter(logdir=self.log_path)
 
         self._registered_modules = []
 
