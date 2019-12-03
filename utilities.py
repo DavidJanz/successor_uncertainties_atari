@@ -209,13 +209,6 @@ class AtariManager(TrainingManager):
 
     def record_policy(self, n_steps, policy):
         p_stats, avg_q_value, action_history = policy.get_stats()
-        covar = policy.get_covariance()
-
-        if covar is not None:
-            diagonal = covar.diag()
-            self.tensorboard.add_scalar('covar/min_diag', diagonal.min().item(), n_steps)
-            self.tensorboard.add_scalar('covar/max_diag', diagonal.max().item(), n_steps)
-            self.tensorboard.add_scalar('covar/mean_diag', diagonal.mean().item(), n_steps)
 
         if action_history:
             self.tensorboard.add_histogram('training/action_history',
