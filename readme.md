@@ -1,4 +1,4 @@
-Code for paper "Successor Uncertainties: Exploration and Uncertainty in Temporal Difference Learning" by David Janz<sup>\*</sup>, Jiri Hron<sup>\*</sup>, José Miguel Hernández-Lobato, Katja Hofmann, Sebastian Tschiatschek. NeurIPS 2019.
+Code for paper "Successor Uncertainties: Exploration and Uncertainty in Temporal Difference Learning" by David Janz<sup>\*</sup>, Jiri Hron<sup>\*</sup>, Przemysław Mazur, Katja Hofmann, José Miguel Hernández-Lobato, Sebastian Tschiatschek. NeurIPS 2019.
 <sup>\*</sup> Equal contribution
 
 Paper is available at https://arxiv.org/abs/1810.06530.
